@@ -277,7 +277,7 @@ void setup()
   WiFi.begin(SSID, PASS);
 
   mySwitch.enableReceive(0);   // Receiver on interrupt 0 => D3
-  mySwitch.enableTransmit(14); // Receiver on interrupt 14 => D5
+  mySwitch.enableTransmit(14); // Transmiter interrupt 14 => D5
   pinMode(2, OUTPUT);
 
   display.flipScreenVertically();
